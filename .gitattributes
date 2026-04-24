@@ -1,0 +1,26 @@
+# Normalize line endings to LF for all text files.
+# Without this, Git on Windows checks files out with CRLF (autocrlf=true),
+# which breaks `gofmt -l` and other LF-sensitive tools in CI.
+
+* text=auto eol=lf
+
+# Source / config — explicit LF.
+*.go    text eol=lf
+*.mod   text eol=lf
+*.sum   text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.md    text eol=lf
+*.sh    text eol=lf
+*.tape  text eol=lf
+
+# Binary assets — never convert.
+*.gif   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.mp4   binary
+*.webm  binary
+*.db    binary
+*.sqlite binary
