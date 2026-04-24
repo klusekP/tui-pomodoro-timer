@@ -1,0 +1,36 @@
+# Build output
+/time-tracker
+/bin/
+/dist/
+
+# Test artifacts
+*.test
+*.out
+coverage.txt
+coverage.html
+
+# Local databases generated while developing
+*.db
+*.db-journal
+*.sqlite
+*.sqlite-journal
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# macOS
+.DS_Store
+
+# Direnv / env files
+.envrc
+.env
+.env.*
+!.env.example
+
+# vhs intermediate output (keep the .tape, ignore renders if developed locally)
+docs/*.mp4
+docs/*.webm
