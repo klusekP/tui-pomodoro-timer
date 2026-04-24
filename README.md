@@ -6,7 +6,7 @@
 [![CI](https://github.com/klusekP/time_pr_tracking/actions/workflows/ci.yml/badge.svg)](https://github.com/klusekP/time_pr_tracking/actions/workflows/ci.yml)
 [![Release](https://github.com/klusekP/time_pr_tracking/actions/workflows/release.yml/badge.svg)](https://github.com/klusekP/time_pr_tracking/actions/workflows/release.yml)
 [![Latest release](https://img.shields.io/github/v/release/klusekP/time_pr_tracking?display_name=tag&sort=semver)](https://github.com/klusekP/time_pr_tracking/releases/latest)
-[![Go](https://img.shields.io/badge/Go-1.22%2B-00ADD8?logo=go&logoColor=white)](https://go.dev/)
+[![Go](https://img.shields.io/badge/Go-1.25%2B-00ADD8?logo=go&logoColor=white)](https://go.dev/)
 [![Made with Charm](https://img.shields.io/badge/made%20with-charm-ff69b4)](https://charm.sh/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -119,7 +119,7 @@ go build -o time-tracker ./cmd/time-tracker
 
 **Requirements**
 
-- Go **1.22 or newer** (the project tracks the latest Go release).
+- Go **1.25 or newer** (the project tracks the latest Go release).
 - A modern terminal with True Color support — iTerm2, WezTerm, Alacritty,
   Kitty, Windows Terminal, GNOME Terminal, etc.
 

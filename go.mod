@@ -1,6 +1,6 @@
 module github.com/klusekP/time_pr_tracking
 
-go 1.26.1
+go 1.25.0
 
 require (
 	github.com/charmbracelet/bubbles v1.0.0
